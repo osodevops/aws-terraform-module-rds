@@ -2,7 +2,7 @@
 
 Configuration in this directory creates the additional resources required to use Enhanced Monitoring.
 
-See http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html for details
+See http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_Monitoring.OS.html for details.
 
 Data sources are used to discover existing VPC resources (VPC, subnet and security group).
 
@@ -19,5 +19,18 @@ $ terraform apply
 Note that this example may create resources which cost money. Run `terraform destroy` when you don't need these resources.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Providers
+
+| Name | Version |
+|------|---------|
+| aws | n/a |
+
+## Inputs
+
+No input.
+
+## Outputs
+
+No output.
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
